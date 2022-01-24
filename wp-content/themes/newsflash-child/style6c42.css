@@ -1,0 +1,37 @@
+/*
+Theme Name: Newsflash Child
+Theme URI: http://newsflash.mikado-themes.com
+Description: A child theme of Newsflash Theme
+Author: Mikado Themes
+Author URI: http://themeforest.net/user/mikado-themes
+Version: 1.0.0
+Text Domain: newsflash
+Template: newsflash
+*/
+
+.hideThisWrapper{display: none;}
+.mkdf-page-header .mkdf-logo-area .mkdf-position-right{height:auto;margin-top:35px;}
+/*.mkdf-main-menu>ul>li>a { color:#000; }
+.mkdf-main-menu>ul>li>a:hover { color:#1c83df; }
+.mkdf-main-menu>ul>li.mkdf-active-item>a { color:#1c83df; }*/
+
+.mkdf-main-menu>ul>li>a>span.item_outer:after { display:none; }
+.greenTitle h4 { color:#02df7c !important; }
+
+.blueTitle h4 { color:#1c83df !important; }
+
+#nav_menu-3 ul li { position:relative; }
+#nav_menu-3 ul ul { background:#fff; position:absolute; left:0px; padding: 40px 20px 20px 20px; width:150px; opacity:0; visibility:hidden; transition:all 0.1s ease 0s; height:0px; }
+#nav_menu-3 ul ul li { padding-left:0px; padding-right:0px; float:left; width:100%; text-align:left; line-height:27px; }
+#nav_menu-3 ul ul li a { margin: 0; padding: 7px 0px; font-size:13px; text-align:left; text-transform:capitalize; font-weight:normal; }
+#nav_menu-3 li:hover ul { opacity:1; transition:all 0.1s ease 0s; visibility:visible; height:inherit; }
+
+.airBnbBullets { float:left; width:100%; }
+.airBnbBullets li { font-size: 16px; color: #424242; padding-bottom:20px; font-family: "Open Sans",sans-serif; }
+
+.mkdf-post-image { width:100%; } 
+.mkdf-post-image img { width:100%; height:auto; } 
+
+.wpb_single_image .wpb_wrapper { width:100%; }
+.vc_single_image-wrapper { width:100%; }
+.vc_single_image-wrapper img { width:100%; height:auto; }
